@@ -46,7 +46,7 @@ With 32-token chunks, the cloud performs roughly 1 forward pass instead of 32 �
 
 ## 4. Hardware Affinity
 
-Decode is memory-bandwidth bound, not compute-bound. Apple’s M5 series (especially M5 Max/Ultra with 128 GB+ unified memory and very high bandwidth) is particularly strong here. Adding more M5 nodes + dongles scales tokens-per-second near-linearly via **n+1 local routing** (load balancing + redundancy).
+Decode is memory-bandwidth bound, not compute-bound. Apple’s M5 series (especially M5 Max/Ultra with 128 GB+ unified memory and very high bandwidth) will be particularly strong here, (M5 Ultra not released at this date however). Adding more M5 nodes + dongles scales tokens-per-second near-linearly via **n+1 local routing** (load balancing + redundancy).
 
 ## 5. Commercial Model – Max+ with Dongle
 
