@@ -2,7 +2,7 @@
 
 **Author:** Rob Anderson  
 **Date:** 27 April 2026  
-**GitHub:** [To be published – lock date]
+**GitHub:** https://github.com/robanderson/Cartridge-Inference.git
 
 ## Author Bio
 Rob Anderson is an ex-IBM Mainframe Assembler programmer who worked with Databank NZ and EDS in the 1990s. His early career focused on large-scale virtual memory systems, demand paging, and predictive prefetching on IBM S/390 MVS platforms. He now applies those same core principles to modern distributed AI inference architectures.
